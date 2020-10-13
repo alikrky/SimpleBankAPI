@@ -4,7 +4,6 @@ import com.karakaya.bank.SimpleBankAPI.Controller.MainController;
 import com.karakaya.bank.SimpleBankAPI.service.customer.CustomerService;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
