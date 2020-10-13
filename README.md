@@ -44,3 +44,6 @@ Make sure you have the Lombok plugin for IntelliJ installed!
     Install
     Restart IntelliJ
 
+### Run Procedure
+SpringBoot has built-in tomcat servlet runner. 
+Go localhost:8080 to run the application
