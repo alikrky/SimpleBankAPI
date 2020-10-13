@@ -26,8 +26,8 @@ A simple API to be used for opening a new current account of already existent cu
 * Another Endpoint will output the user information showing Name, Surname, balance, and transactions of the accounts.
 
 ### Note
-Lombok is a powerful plugin to prevent boilerplate codes.
-To added it to IntelliJ
+Annotation processing is a powerful tools to reduce boilerplate codes.
+To add this capability to IntelliJ
 
     Preferences (Ctrl + Alt + S)
         Build, Execution, Deployment

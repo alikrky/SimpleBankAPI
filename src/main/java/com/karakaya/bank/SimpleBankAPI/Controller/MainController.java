@@ -44,7 +44,7 @@ public class MainController {
                               ModelMap modelMap) {
 
         Customer cust = new Customer(new Integer(customerID),name,surname);
-        if(credit==null || credit.length()<1 || credit.isEmpty()) {
+        if(credit==null || credit.length()<1) {
             customerService.createOrUpdateCustomer(cust, BigDecimal.ZERO);
         }
         else {
@@ -81,7 +81,7 @@ public class MainController {
         model.put("balance", customerService.calculateTotalBalanceOfCustomer(customerID));
         model.put("transactions", customerService.getUserTransactions(customerID));
 
-        return new ModelAndView("user", model);
+        return new ModelAndView("customer", model);
     }
 
     @RequestMapping(path = "/addAccount", method = RequestMethod.POST)
